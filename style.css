@@ -1,33 +1,38 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 30px;
 }
 
 header {
-    margin-block: 30px;
-    padding-inline: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+  margin-block: 30px;
 
-    img {
-        border-radius: 5px;
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+
+  img {
+    border-radius: 5px;
+  }
 }
 
 h1 {
-    font-size: 40px;
-    color: rgb(148, 155, 150);
-    span {
-        color: yellow;
-    }
+  font-size: 40px;
+  color: rgb(148, 155, 150);
+  span {
+    color: yellow;
+  }
+}
+
+p {
+  color: rgb(148, 155, 150);
 }
