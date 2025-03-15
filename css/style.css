@@ -56,7 +56,7 @@ header a svg {
 @media (max-width: 610px) {
   header {
     justify-content: space-around;
-    column-gap: 180px;
+    column-gap: 140px;
     row-gap: 20px;
   }
   header h1 {
