@@ -25,7 +25,7 @@ body {
 }
 header {
   height: 400px;
-  background-image: url(../img/loft.png);
+  background-image: url(../img/photo-1.jpg);
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,10 +42,10 @@ header img {
 }
 header h1 {
   font-size: 40px;
-  color: #949b96;
+  color: #1cff5d;
 }
 header h1 span {
-  color: #c08429;
+  color: #ff9c07;
 }
 header a img,
 header a svg {
