@@ -24,9 +24,9 @@ body {
   font-display: wrap;
 }
 header {
-  height: 200px;
-  background-image: url(../img/photo-1.jpg);
-  background-position: center;
+  height: 400px;
+  background-image: url(../img/loft.png);
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   padding-block: 20px;
@@ -55,9 +55,9 @@ header a svg {
 }
 @media (max-width: 610px) {
   header {
-    justify-content: space-around;
+    justify-content: center;
+    align-items: anchor-center;
     column-gap: 130px;
-    row-gap: 20px;
   }
   header h1 {
     order: 1;
