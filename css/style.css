@@ -24,11 +24,16 @@ body {
   font-display: wrap;
 }
 header {
+  height: 200px;
+  background-image: url(../img/photo-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-block: 20px;
   padding-bottom: 40px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   flex-wrap: wrap;
   column-gap: 50px;
 }
@@ -40,7 +45,7 @@ header h1 {
   color: #949b96;
 }
 header h1 span {
-  color: #ffff00;
+  color: #c08429;
 }
 header a img,
 header a svg {
@@ -51,7 +56,7 @@ header a svg {
 @media (max-width: 610px) {
   header {
     justify-content: space-around;
-    column-gap: 140px;
+    column-gap: 130px;
     row-gap: 20px;
   }
   header h1 {
